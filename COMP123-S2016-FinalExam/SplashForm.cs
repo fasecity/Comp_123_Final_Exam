@@ -19,7 +19,8 @@ namespace COMP123_S2016_FinalExam
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            
+            // Application.Run(new AbilityGeneratorForm());
+            //Application.Run(new AbilityGeneratorForm());
         }
     }
 }
