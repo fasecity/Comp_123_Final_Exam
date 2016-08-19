@@ -7,7 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// Mohamoud Mohamed 300435435
+/// Final exam comp123
+/// v.1
+/// </summary>
 namespace COMP123_S2016_FinalExam
 {
     public partial class GenerateNameForm : Form
