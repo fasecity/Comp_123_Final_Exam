@@ -19,6 +19,16 @@ namespace COMP123_S2016_FinalExam
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            //enabled timer to false
+            timer1.Enabled = false;
+            // hid splash form
+            this.Hide();
+            //instantiated generatenameForm
+            GenerateNameForm generatenameform = new GenerateNameForm();
+            //call
+            generatenameform.splashperv = this;
+            //show
+            generatenameform.Show();
             // Application.Run(new AbilityGeneratorForm());
             //Application.Run(new AbilityGeneratorForm());
         }

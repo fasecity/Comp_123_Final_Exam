@@ -14,6 +14,7 @@ namespace COMP123_S2016_FinalExam
 {
     public partial class AbilityGeneratorForm : Form
     {
+      //  public GenerateNameForm generatenamesprop { get; set; }
         // private Instance Object
         private Random _random;
 

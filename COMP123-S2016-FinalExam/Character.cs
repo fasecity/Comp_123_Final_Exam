@@ -20,7 +20,9 @@ namespace COMP123_S2016_FinalExam
         public string Charisma { get; set; }
 
         public string Race { get; set; }
+        //added property
         public string FirstName { get; set; }
+        //added property
         public string LastName { get; set; }
     }
 }

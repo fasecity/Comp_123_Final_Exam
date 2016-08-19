@@ -13,6 +13,7 @@ namespace COMP123_S2016_FinalExam
 {
     public partial class RaceAndClassForm : Form
     {
+        //created a property to go from form to form
         public AbilityGeneratorForm previousForm;
         private string _selectedRace;
 
@@ -41,7 +42,11 @@ namespace COMP123_S2016_FinalExam
 
             this._selectedRace = selectedRace.Text;
         }
-
+        /// <summary>
+        /// created functionality for the next button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void NextButton_Click(object sender, EventArgs e)
         {
             FinalForm finalForm = new FinalForm();
